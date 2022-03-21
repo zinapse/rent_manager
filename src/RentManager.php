@@ -43,6 +43,10 @@ class RentManager {
 
     }
 
+    public function run() {
+        $this->query->run();
+    }
+
     /*
     * GETTERS AND SETTERS
     ***********************

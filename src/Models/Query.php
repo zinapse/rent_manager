@@ -95,7 +95,7 @@ class Query {
      *
      * @return boolean|array
      */
-    protected function run() : bool|array {
+    public function run() : bool|array {
         if(!empty($this->auth)) {
             // Define variables
             $entity = $this->data['entity']     ?? null;
