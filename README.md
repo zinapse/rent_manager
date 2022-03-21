@@ -1,1 +1,1 @@
-# rent_manager
+# Rent Manager package
