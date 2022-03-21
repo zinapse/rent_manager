@@ -1,0 +1,22 @@
+{
+    "name": "zinapse/rent_manager",
+    "description": "A Rent Manager package to help interact with their API.",
+    "type": "library",
+    "require": {
+        "php": ">=8",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "Zinapse\\RentManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nick Mast",
+            "email": "nick@zinapse.tech"
+        }
+    ],
+    "minimum-stability": "stable"
+}
