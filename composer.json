@@ -4,9 +4,10 @@
     "type": "library",
     "require": {
         "php": ">=8",
-        "guzzlehttp/guzzle": "^7.4"
+        "guzzlehttp/guzzle": "^7.4",
+        "laravel/framework": "^9.0"
     },
-    "license": "GNU",
+    "license": "GPL-3.0",
     "autoload": {
         "psr-4": {
             "Zinapse\\RentManager\\": "src/"
